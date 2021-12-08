@@ -1,9 +1,9 @@
 const sum = require("../index")
 
 test("Addition of two positive umbers",function(){
-    expect(1+3).toBe(4);
+    expect(sum(2,3,1,4)).toBe(10);
 })
 
 test("substraction of two  numbers",function(){
-    expect(-4 -66).toBe(-70);
+    expect(sum(-5,-5,5,5)).toBe(0);
 })
